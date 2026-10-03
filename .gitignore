@@ -1,0 +1,42 @@
+# macOS / Windows
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+coverage/
+dist/
+build/
+*.tsbuildinfo
+
+# Секреты и локальное окружение
+.env
+.env.*
+!.env.example
+
+# Локальные TLS-сертификаты (приватные ключи)
+**/certs/*.pem
+**/certs/*.key
+**/certs/*.crt
+
+# Логи
+*.log
+logs/
+
+# Docker: локальные override, не часть задания
+docker-compose.override.yml

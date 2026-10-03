@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab_1 — grid</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 0;
+      padding: 24px;
+      line-height: 1.5;
+      color: #1a1a1a;
+      background: #f7f5f0;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 8px;
+    }
+
+    .intro {
+      max-width: 720px;
+      margin-bottom: 24px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto auto auto;
+      gap: 16px;
+      max-width: 900px;
+    }
+
+    .grid > * {
+      padding: 16px;
+      background: #fff;
+      border: 1px solid #d8d2c4;
+    }
+
+    .header {
+      grid-column: 1 / -1;
+      background: #e8e2d6;
+    }
+
+    .main {
+      grid-row: span 2;
+    }
+
+    .sidebar,
+    .aside {
+      background: #f0ebe1;
+    }
+
+    .footer {
+      grid-column: 1 / -1;
+      background: #e8e2d6;
+    }
+
+    a {
+      color: #0b5fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Страница 2 — CSS Grid</h1>
+  <p class="intro">
+    Пример вёрстки на CSS Grid. Ниже блоки расположены в сетке: шапка на всю
+    ширину, основная колонка, два боковых блока и подвал.
+  </p>
+
+  <div class="grid">
+    <header class="header">
+      <strong>Header</strong>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        odio. Praesent libero. Sed cursus ante dapibus diam.
+      </p>
+    </header>
+
+    <main class="main">
+      <strong>Main</strong>
+      <p>
+        Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
+        ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+        massa. Vestibulum lacinia arcu eget nulla.
+      </p>
+      <p>
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim
+        lacinia nunc.
+      </p>
+    </main>
+
+    <aside class="sidebar">
+      <strong>Sidebar</strong>
+      <p>
+        Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at
+        dolor. Maecenas mattis.
+      </p>
+    </aside>
+
+    <aside class="aside">
+      <strong>Aside</strong>
+      <p>
+        Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.
+        Morbi lectus risus, iaculis vel, suscipit quis.
+      </p>
+    </aside>
+
+    <footer class="footer">
+      <strong>Footer</strong>
+      <p>
+        Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.
+        Quisque volutpat condimentum velit.
+      </p>
+      <p><a href="index.html">← На главную</a></p>
+    </footer>
+  </div>
+</body>
+</html>

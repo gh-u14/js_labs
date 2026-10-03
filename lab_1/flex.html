@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab_1 — flex</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 0;
+      padding: 24px;
+      line-height: 1.5;
+      color: #1a1a1a;
+      background: #f7f5f0;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 8px;
+    }
+
+    .intro {
+      max-width: 720px;
+      margin-bottom: 24px;
+    }
+
+    .page {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 900px;
+    }
+
+    .header,
+    .footer,
+    .card {
+      padding: 16px;
+      background: #fff;
+      border: 1px solid #d8d2c4;
+    }
+
+    .header,
+    .footer {
+      background: #e8e2d6;
+    }
+
+    .content {
+      display: flex;
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .main {
+      flex: 2;
+      padding: 16px;
+      background: #fff;
+      border: 1px solid #d8d2c4;
+    }
+
+    .side {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .card {
+      background: #f0ebe1;
+      flex: 1;
+    }
+
+    .cards-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .cards-row .card {
+      flex: 1 1 180px;
+      background: #fff;
+    }
+
+    a {
+      color: #0b5fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Страница 3 — Flexbox</h1>
+  <p class="intro">
+    Пример вёрстки на Flexbox. Страница собрана из колонок и рядов: шапка,
+    основной контент с боковой колонкой и ряд карточек внизу.
+  </p>
+
+  <div class="page">
+    <header class="header">
+      <strong>Header</strong>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+        curae.
+      </p>
+    </header>
+
+    <div class="content">
+      <main class="main">
+        <strong>Main</strong>
+        <p>
+          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+          impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
+          assumenda est, omnis dolor repellendus.
+        </p>
+        <p>
+          Temporibus autem quibusdam et aut officiis debitis aut rerum
+          necessitatibus saepe eveniet ut et voluptates repudiandae sint et
+          molestiae non recusandae.
+        </p>
+      </main>
+
+      <aside class="side">
+        <div class="card">
+          <strong>Sidebar A</strong>
+          <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+            voluptatibus maiores alias consequatur.
+          </p>
+        </div>
+        <div class="card">
+          <strong>Sidebar B</strong>
+          <p>
+            Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+            tempore, cum soluta nobis.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="cards-row">
+      <div class="card">
+        <strong>Card 1</strong>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="card">
+        <strong>Card 2</strong>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="card">
+        <strong>Card 3</strong>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <strong>Footer</strong>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum deleniti atque.
+      </p>
+      <p><a href="index.html">← На главную</a></p>
+    </footer>
+  </div>
+</body>
+</html>
