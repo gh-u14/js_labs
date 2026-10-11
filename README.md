@@ -13,3 +13,14 @@
 ## lab 3
 
 - [Анализ сложности алгоритмов](lab_3/complexity.md)
+- Сортировка: `node lab_3/1_sort.js`
+- Бинарный поиск: `node lab_3/2_binary_search.js`
+- Скобки: `node lab_3/3_brackets.js`
+
+## lab 4
+
+- [Анализ сложности алгоритмов](lab_4/complexity.md)
+- Heap / heapsort: `node lab_4/1_heap_sort.js`
+- Top-k сверху: `node lab_4/2_top_k_max.js`
+- Top-k снизу: `node lab_4/3_top_k_min.js`
+- Priority Queue: `node lab_4/4_priority_queue.js`
