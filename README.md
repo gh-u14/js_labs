@@ -24,3 +24,8 @@
 - Top-k сверху: `node lab_4/2_top_k_max.js`
 - Top-k снизу: `node lab_4/3_top_k_min.js`
 - Priority Queue: `node lab_4/4_priority_queue.js`
+
+## lab 5
+
+- [Анализ сложности алгоритмов](lab_5/complexity.md)
+- Словарь (бор, кириллица): `node lab_5/1_dictionary.js`
