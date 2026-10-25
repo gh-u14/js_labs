@@ -29,3 +29,9 @@
 
 - [Анализ сложности алгоритмов](lab_5/complexity.md)
 - Словарь (бор, кириллица): `node lab_5/1_dictionary.js`
+
+## lab 6
+
+- [Анализ сложности алгоритмов](lab_6/complexity.md)
+- Суффиксное дерево: `node lab_6/1_suffix_tree.js`
+- Наибольший палиндром: `node lab_6/2_palindrome.js`
