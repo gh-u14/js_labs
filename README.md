@@ -35,3 +35,8 @@
 - [Анализ сложности алгоритмов](lab_6/complexity.md)
 - Суффиксное дерево: `node lab_6/1_suffix_tree.js`
 - Наибольший палиндром: `node lab_6/2_palindrome.js`
+
+## lab 7
+
+- [Анализ сложности алгоритмов](lab_7/complexity.md)
+- Обходы дерева: `node lab_7/traversals.js`
