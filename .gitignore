@@ -40,3 +40,6 @@ logs/
 
 # Docker: локальные override, не часть задания
 docker-compose.override.yml
+
+# Отдельный репозиторий
+lab_8_frontend/

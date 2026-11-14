@@ -40,3 +40,7 @@
 
 - [Анализ сложности алгоритмов](lab_7/complexity.md)
 - Обходы дерева: `node lab_7/traversals.js`
+
+## lab 8 frontend
+
+- https://github.com/gh-u14/js_labs_lab8_frontend
