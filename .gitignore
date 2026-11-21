@@ -42,4 +42,4 @@ logs/
 docker-compose.override.yml
 
 # Отдельный репозиторий
-lab_8_frontend/
+project_1/
